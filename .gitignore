@@ -22,3 +22,13 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+MessagingServer/src/main/resources/log4j.properties
+MessagingServer/target/classes/log4j.properties
+MessagingServer/target/classes/Config/ServerConfiguration.txt
+MessagingServer/target/maven-archiver/pom.properties
+MessagingServer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+MessagingServer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+MessagingServer/src/main/java/Services/CoordinationService/GossipService.java
+MessagingClient/target/maven-archiver/pom.properties
+MessagingClient/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+MessagingClient/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst

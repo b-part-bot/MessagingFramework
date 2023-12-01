@@ -1,0 +1,9 @@
+java -jar target/MessagingClient-1.0.0-jar-with-dependencies.jar -p 4444 -h localhost -i  user1
+java -jar target/MessagingClient-1.0.0-jar-with-dependencies.jar -p 4444 -h localhost -i  user2
+java -jar target/MessagingClient-1.0.0-jar-with-dependencies.jar -p 4445 -h localhost -i  user1
+java -jar target/MessagingClient-1.0.0-jar-with-dependencies.jar -p 4446 -h localhost -i  user1
+
+java -jar target/DistributedMessagingServer-1.0-SNAPSHOT-jar-with-dependencies.jar  -conf src/main/java/Config/ServerConfiguration.txt -sid s1
+java -jar target/DistributedMessagingServer-1.0-SNAPSHOT-jar-with-dependencies.jar  -conf src/main/java/Config/ServerConfiguration.txt -sid s2
+java -jar target/DistributedMessagingServer-1.0-SNAPSHOT-jar-with-dependencies.jar  -conf src/main/java/Config/ServerConfiguration.txt -sid s3
+java -jar target/DistributedMessagingServer-1.0-SNAPSHOT-jar-with-dependencies.jar  -conf src/main/java/Config/ServerConfiguration.txt -sid s4
