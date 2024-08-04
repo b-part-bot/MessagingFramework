@@ -1,1 +1,1 @@
-# coen317-MessagingService
+# MessagingService
